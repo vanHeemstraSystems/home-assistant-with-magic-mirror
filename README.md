@@ -7,6 +7,8 @@ Based on"DIY Smart Mirror v2.0 - Magic Mirror Build" at https://www.youtube.com/
 
 Based on "MagicMirror² - The open source modular smart mirror platform." at https://magicmirror.builders/
 
+Based on "magicmirror Docker Image" at https://gitlab.com/khassel/magicmirror
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
