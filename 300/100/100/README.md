@@ -10,4 +10,6 @@ See /containers/app/magicmirror/README.md
 
 Based on "MMM-HomeAssistantDisplay" at https://github.com/wonderslug/MMM-HomeAssistantDisplay
 
+TO DO: Move (most of) https://github.com/wonderslug/MMM-HomeAssistantDisplay/tree/main into our own repository in the "run" directory and change the docker-compose.yml file (copies of for example serveronly.yml) so that it uses the Dockerfile.dev. 
+
 MORE ...
