@@ -2,7 +2,7 @@ version: '3'
 
 services:
   magicmirror:
-    container_name: mm
+    container_name: magicmirror
     image: karsten13/magicmirror:latest
     ports:
       - "8080:8080"
