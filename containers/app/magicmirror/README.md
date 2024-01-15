@@ -52,3 +52,5 @@ To get rid of all old images you can execute ```docker image prune -f```.
 NOTE: To add a Open Weather API Key to the file ```/mounts/config/config.js`````` follow the instructions at https://openweathermap.org/api
 
 After you have added **YOUR_OPENWEATHER_API_KEY**, do not forget to restart the Docker container with ```docker compose up -d --force-recreate``` for the new configuration to be picked up.
+
+NOTE: You can find your location for the weather by looking into the file at http://bulk.openweathermap.org/sample/city.list.json.gz For example, Eindhoven (NL) has id: 2756252.

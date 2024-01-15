@@ -4,6 +4,8 @@ services:
   magicmirror:
     container_name: magicmirror
     image: karsten13/magicmirror:latest
+    environment:
+      OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY}
     ports:
       - "8080:8080"
     volumes:

@@ -1,5 +1,8 @@
 *.log
-mounts/
+mounts/css/
+mounts/modules/
+mounts/config/config.js
+!mounts/config/config.js.template
 run/docker-compose.yml
 Gemfile*
 
