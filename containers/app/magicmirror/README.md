@@ -46,3 +46,9 @@ will stop and remove the MagicMirror container.
 You can restart the container with one command ```docker compose up -d --force-recreate```. This is e.g. necessary if you change the configuration.
 
 To get rid of all old images you can execute ```docker image prune -f```.
+
+## Configuration
+
+NOTE: To add a Open Weather API Key to the file ```/mounts/config/config.js`````` follow the instructions at https://openweathermap.org/api
+
+After you have added **YOUR_OPENWEATHER_API_KEY**, do not forget to restart the Docker container with ```docker compose up -d --force-recreate``` for the new configuration to be picked up.
