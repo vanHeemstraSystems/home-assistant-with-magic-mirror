@@ -1,17 +1,3 @@
-let config = {
-  // The variables are replaced when the template is converted to config.js
-  // so you'll need to wrap them with quotes as if they were declared as strings
-  modules: [
-    {
-      module: "weather",
-      config: {
-        apiKey: '${OPENWEATHER_API_KEY}'
-      },
-    },
-  ],
-};
-
-
 /* MagicMirror² Config Sample
  *
  * By Michael Teeuw https://michaelteeuw.nl
@@ -27,7 +13,7 @@ let config = {
  *
  * The variables are replaced when the template is converted to config.js
  * so you'll need to wrap them with quotes as if they were declared as strings
- * For example: apiKey: '${OPENWEATHER_API_KEY}' takes its value from /run/.env file
+ * For example: apiKey: '${OPENWEATHER_API_KEY}' takes its value from /run/.env file OPENWEATHER_API_KEY="*************"
  */
 let config = {
 	address: "0.0.0.0",	// Address to listen on, can be:
