@@ -14,6 +14,8 @@ This will start the server, after which you can open the application in your bro
 
 We'll be following this use case!
 
+See [README.md](./100/README.md)
+
 ### 200 - Scenario electron ✌️: Using docker on the raspberry pi and starting the MagicMirror on the screen of the pi using electron.
 
 ### 300 - Scenario client 👌: Using docker on the raspberry pi and starting the MagicMirror on the screen of the pi using another running MagicMirror instance.
