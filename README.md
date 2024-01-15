@@ -9,6 +9,8 @@ Based on "MagicMirror² - The open source modular smart mirror platform." at htt
 
 Based on "magicmirror Docker Image" at https://gitlab.com/khassel/magicmirror
 
+In the opposite direction, one can also host Magic Mirror inside Home Assistant as shown with "Magic Mirror Module for Home Assistant using Templates" at https://community.home-assistant.io/t/magic-mirror-module-for-home-assistant-using-templates/330320
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
