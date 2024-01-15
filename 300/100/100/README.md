@@ -3,3 +3,11 @@
 This will start the server, after which you can open the application in your browser of choice. This is e.g useful for testing or running the application somewhere online, so you can access it with a browser from everywhere.
 
 We'll be following this use case!
+
+See /containers/app/magicmirror/README.md
+
+## 100 - Integrating Home Assistant in Magic Mirror
+
+Based on "MMM-HomeAssistantDisplay" at https://github.com/wonderslug/MMM-HomeAssistantDisplay
+
+MORE ...
