@@ -2,8 +2,8 @@ let config = {
   // The variables are replaced when the template is converted to config.js
   // so you'll need to wrap them with quotes as if they were declared as strings
   modules: [
-		{
-			module: "weather",
+    {
+      module: "weather",
       config: {
         apiKey: '${OPENWEATHER_API_KEY}'
       },
